@@ -1,1 +1,2 @@
-# pterodactyl-theme-beefbytes
+# About
+Pterodactyl theme for BeefBytes panel
