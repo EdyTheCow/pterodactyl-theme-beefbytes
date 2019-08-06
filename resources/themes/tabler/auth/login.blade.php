@@ -51,7 +51,7 @@
                   <div class="form-footer">
                     {!! csrf_field() !!}
                     <button type="submit" class="btn btn-primary btn-block g-recaptcha pterodactyl-login-button--main" @if(config('recaptcha.enabled')) data-sitekey="{{ config('recaptcha.website_key') }}" data-callback='onSubmit' @endif>@lang('auth.sign_in')</button>
-                      <a href="{{ route('auth.password') }}" class="float-right small">I forgot my password</a>
+                      <!--a href="{{ route('auth.password') }}" class="float-right small">I forgot my password</a-->
                   </div>
                 </div>
               </form>

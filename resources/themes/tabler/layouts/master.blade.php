@@ -46,7 +46,7 @@
           <div class="container">
             <div class="d-flex">
               <a class="header-brand" href="{{route('index')}}">
-                    <span>{{ config('app.name', 'Pterodactyl') }}</span>
+                    <img src="https://beefbytes.github.io/Assets/BeefBytes/logos/svg/horizontal_text_optimized.svg" width="200">
               </a>
               <div class="d-flex order-lg-2 ml-auto">
                 <div class="dropdown">
@@ -206,7 +206,7 @@
               </div>
             </div>
             <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
-                Copyright &copy; 2015 - {{ date('Y') }} <a href="https://pterodactyl.io/">Pterodactyl Software</a>.
+                Copyright &copy; BeefBytes
             </div>
           </div>
         </div>
